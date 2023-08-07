@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/test_app_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test App Info" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/test_scanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test Scanner" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/test_manifest_viewer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test Manifest Viewer" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/test_installer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test Installer" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>
